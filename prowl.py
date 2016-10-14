@@ -1,8 +1,8 @@
-# -*- coding: utf-8 -*-
+from __future__ import print_function
 
 import requests
 
-from errors import ProwlError
+from .errors import ProwlError
 
 class Prowl(object):
 
